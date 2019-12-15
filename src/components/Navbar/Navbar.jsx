@@ -1,6 +1,6 @@
 import React from 'react';
 import s from './Navbar.module.css';
-import {BrowserRouter, Route} from "react-router-dom";
+
 
 const Navbar= () => {
     return <nav className={s.nav}>
@@ -10,7 +10,7 @@ const Navbar= () => {
         <div className={`${s.item} ${s.active}`}>
           <a href='/message'>Messages</a>
         </div>
-        {/* <div className={s.item}>
+         <div className={s.item}>
          <a href='/news'>News</a>
         </div>
         <div className={s.item}>
@@ -18,7 +18,7 @@ const Navbar= () => {
         </div>
         <div className={s.item}>
           <a href='/settigs'>Settings</a>
-        </div> */}
+        </div>
       </nav>
 }
 

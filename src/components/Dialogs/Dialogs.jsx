@@ -1,11 +1,11 @@
 import React from 'react';
-import s from './Dialogs.module.css'
+//import s from './Dialogs.module.css'
 
 
-const Dialogs = (props) => {
+const Dialogs = () => {
     return(
 
-        <div>
+        <div  className='app-wrapper-content'>
             Dialogs
         </div>
     )
