@@ -1,12 +1,19 @@
 .dialogs{
+display: flex;
+    justify-content: space-around;
+}
+.dialogsItems .dialog{
+    width: 30%;
+    padding: 10px;
 
 }
-.dialogItems{
-
+.dialog.active{
+    color: gold;
 }
 
 .messages{
-
+    width: 70%;
+    padding: 10px   ;
 }
 
 .message{

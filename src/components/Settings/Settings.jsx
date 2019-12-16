@@ -2,10 +2,10 @@ import React from 'react';
 
 
 
-const Settings= () => {
+const Settings = () => {
     return (
-    <div className='app-wrapper-content'>
-        Settings
+    <div>
+        settings
     </div>
     )
 }
