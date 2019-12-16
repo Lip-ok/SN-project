@@ -14,7 +14,7 @@ const Post = (props) => {
       <img src='https://vignette.wikia.nocookie.net/avatar-2009-movie/images/f/f5/Avatar-1701_%281%29.jpg/revision/latest?cb=20160202004936' />
       {props.message}
           <div>
-<span>like {props.count}</span>
+<span>likes {props.count}</span>
       </div>
     </div>
 
