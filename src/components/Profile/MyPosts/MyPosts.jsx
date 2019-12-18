@@ -1,9 +1,14 @@
 import React from 'react';
-
-
 import s from './MyPosts.module.css';
 import Post from './Post/Post';
 
+let postsData = [
+    {message: 'Hello bro!', count: 3},
+    {message: 'Yo', count: 14},
+    {message: 'WTF!?', count: 41},
+
+]
+let postsDataElements = postsData.map(posts => <Post message={posts.message} count={posts.count}/>)
 
 const MyPosts = () => {
     return (
@@ -18,9 +23,7 @@ const MyPosts = () => {
             </div>
             <div>
                 <div className={s.posts}>
-                    <Post message='Hello Egor' count='15'/>
-                    <Post message='Hello Sasha' count='20'/>
-
+                   { postsDataElements}
                 </div>
             </div>
         </div>
