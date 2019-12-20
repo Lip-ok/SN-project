@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7476b9ac-f083-4256-9616-d8a754731e55" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/Dialogs/DialogItem/DialogItem.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Dialogs/Message/Message.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/Post/Post.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/Post/Post.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Profile.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,20 +29,22 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../portfolio/web-portfolio/portfolio" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Dialogs/Message" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="G:\it-kamasutra\social-network\SN-project\src\components\Profile\ProfileInfo" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="G:\it-kamasutra\social-network\SN-project\src\components\News" />
       <recent name="G:\it-kamasutra\social-network\SN-project\src\components\Settings" />
       <recent name="G:\it-kamasutra\social-network\SN-project\src\components\Music" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\it-kamasutra\social-network\SN-project\src\components\Dialogs\Message" />
+      <recent name="G:\it-kamasutra\social-network\SN-project\src\components\Dialogs\DialogItem" />
+      <recent name="G:\it-kamasutra\social-network\SN-project\src\components\Profile\ProfileInfo" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -70,6 +78,8 @@
       <workItem from="1576481409837" duration="561000" />
       <workItem from="1576482932244" duration="6188000" />
       <workItem from="1576697448943" duration="6387000" />
+      <workItem from="1576826844622" duration="6542000" />
+      <workItem from="1576852984627" duration="5268000" />
     </task>
     <servers />
   </component>
