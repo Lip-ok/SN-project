@@ -4,8 +4,7 @@ import Post from "./Post/Post";
 
 
 const MyPosts = (props) => {
-    let postsDataElements =
-        props.postsData.map(posts => <Post message={posts.message} count={posts.count}/>)
+    let postsDataElements = props.postsData.map(posts => <Post message={posts.message} count={posts.count}/>)
     return (
 
         <div className={s.postsBlock}>
@@ -18,7 +17,7 @@ const MyPosts = (props) => {
             </div>
             <div>
                 <div className={s.posts}>
-                   { props.postData}
+                   {postsDataElements}
                 </div>
             </div>
         </div>
