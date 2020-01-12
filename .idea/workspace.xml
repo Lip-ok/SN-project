@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7476b9ac-f083-4256-9616-d8a754731e55" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Redax/dialogs-reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Redax/profile-reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Redax/sidebar-reducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Redax/State.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redax/State.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Profile.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,24 +30,25 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.last.introduce.type" value="CONST" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Redax" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="G:\it-kamasutra\social-network\SN-project\src\components\Dialogs\Message" />
-      <recent name="G:\it-kamasutra\social-network\SN-project\src\components\Dialogs\DialogItem" />
-      <recent name="G:\it-kamasutra\social-network\SN-project\src\components\Profile\ProfileInfo" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="G:\it-kamasutra\social-network\SN-project\src\components\Navbar" />
       <recent name="G:\it-kamasutra\social-network\SN-project\src\Redax" />
       <recent name="G:\it-kamasutra\social-network\SN-project\src\components\News" />
       <recent name="G:\it-kamasutra\social-network\SN-project\src\components\Settings" />
       <recent name="G:\it-kamasutra\social-network\SN-project\src\components\Music" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\it-kamasutra\social-network\SN-project\src\Redax" />
+      <recent name="G:\it-kamasutra\social-network\SN-project\src\components\Dialogs\Message" />
+      <recent name="G:\it-kamasutra\social-network\SN-project\src\components\Dialogs\DialogItem" />
+      <recent name="G:\it-kamasutra\social-network\SN-project\src\components\Profile\ProfileInfo" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -89,7 +93,8 @@
       <workItem from="1577940802885" duration="9452000" />
       <workItem from="1578047018830" duration="1209000" />
       <workItem from="1578319727849" duration="1208000" />
-      <workItem from="1578662150394" duration="5471000" />
+      <workItem from="1578662150394" duration="6282000" />
+      <workItem from="1578813796758" duration="10217000" />
     </task>
     <task id="LOCAL-00001" summary="Lesson 28 completed">
       <created>1576858781299</created>
@@ -112,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576926251272</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Lesson 38 completed">
+      <created>1578671321550</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1578671321550</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,21 +134,22 @@
     <MESSAGE value="Lesson 28 completed" />
     <MESSAGE value="Lesson 29 completed, but additional task in the process" />
     <MESSAGE value="Lesson 29 completed, additional task completed on 70%" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lesson 29 completed, additional task completed on 70%" />
+    <MESSAGE value="Lesson 38 completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lesson 38 completed" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="177" key="#Inspections" timestamp="1576430632251">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="177" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1576430632251" />
-    <state x="0" y="0" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1576920996878">
+    <state x="0" y="0" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1578829866575">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="0" y="0" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1576920996878" />
-    <state x="585" y="110" key="CommitChangelistDialog2" timestamp="1576926250343">
+    <state x="0" y="0" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1578829866575" />
+    <state x="585" y="110" key="CommitChangelistDialog2" timestamp="1578671320088">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="110" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1576926250343" />
+    <state x="585" y="110" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1578671320088" />
     <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1578457081364">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -145,10 +158,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="161" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1576428688586" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1576926258152">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1578671327791">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1576926258152" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1578671327791" />
     <state x="601" y="246" width="700" height="450" key="recent.locations.popup" timestamp="1576483280559">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
