@@ -26,9 +26,11 @@ let store = {
                     {id: 2, name: 'Master'},
                     {id: 3, name: 'Volodya'},
                     {id: 4, name: 'Stas'}
-                ]
+                ],
+                newMessageBody: '',
             },
-            newMessageBody: '',
+            sidebar: {},
+
         },
         _callSubscriber(){
             console.log('update');

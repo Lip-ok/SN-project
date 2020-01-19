@@ -5,7 +5,8 @@ import Message from "./Message/Message";
 import {sendMessageActionCreator, updateNewMessageBodyActionCreator} from "../../Redax/dialogs-reducer";
 
 const Dialogs = (props) => {
-    let state = props.store.getState().dialogPage;
+
+    let state = props.dialogsPage;
 
     let dialogElements = state.userData.map(dialog => <DialogItem name={dialog.name} id={dialog.id}/>);
     let messageDataElements =state.messageData.map(message => <Message message={message.message}/>);
@@ -13,11 +14,11 @@ const Dialogs = (props) => {
 
 
     let onSendMessageClick = () =>{
-        props.store.dispatch(sendMessageActionCreator());
+        props.sendMessage();
     }
     let onNewMessageChange = (e) =>{
    let body =  e.target.value;
-   props.store.dispatch(updateNewMessageBodyActionCreator(body));
+   props.updateNewMessageBody(body);
     }
 
     return (
