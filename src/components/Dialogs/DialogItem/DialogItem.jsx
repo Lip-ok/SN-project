@@ -1,12 +1,12 @@
 import React from 'react';
 import s from './../Dialogs.module.css';
 import {NavLink} from "react-router-dom";
-import FriendIcon from "../../Navbar/Friends/FriendsIcon/FriendIcon";
+import UsersIcon from "../../Users/UsersIcon/UsersIcon";
 
 const DialogItem = (props) => {
     return (
         <div className={s.dialog + ' ' + s.active}>
-            <FriendIcon/>
+            <UsersIcon/>
                 <NavLink to={'/dialog/' + props.id}>{props.name}</NavLink>
         </div>
     )

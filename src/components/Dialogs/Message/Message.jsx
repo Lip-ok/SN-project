@@ -1,13 +1,13 @@
 import React from 'react';
 import s from './../Dialogs.module.css';
-import FriendIcon from "../../Navbar/Friends/FriendsIcon/FriendIcon";
+import UsersIcon from "../../Users/UsersIcon/UsersIcon";
 
 
 
 const Message = (props) =>{
     return(
         <div className={s.dialog}>
-            <FriendIcon/>
+            <UsersIcon/>
             {props.message}
         </div>
     )

@@ -53,7 +53,7 @@ let store = {
         }
     }
 
-
+//How it's work object STORE
 
 
 

@@ -1,7 +1,7 @@
-import s from "../../Navbar.module.css";
+import s from "../../Navbar/Navbar.module.css";
 import React from "react";
 
-const FriendIcon = () => {
+const UsersIcon = () => {
     return (
         <div>
             <div className={s.item}>
@@ -10,4 +10,4 @@ const FriendIcon = () => {
         </div>
     )
 }
-export default FriendIcon;
+export default UsersIcon;

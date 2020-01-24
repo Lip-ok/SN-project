@@ -1,27 +1,34 @@
 import React from 'react';
 import s from './Navbar.module.css';
 import {NavLink} from "react-router-dom";
-import Friend from "./Friends/Friends";
+import UsersIcon from "../Users/UsersIcon/UsersIcon";
 
 
-const Navbar= () => {
+const Navbar = () => {
     return <nav className={s.nav}>
         <div className={s.item}>
-          <NavLink to='/profile' activeClassName={s.active}>Profile</NavLink>
+            <NavLink to='/profile' activeClassName={s.active}>Profile</NavLink>
         </div>
         <div className={`${s.item} ${s.active}`}>
-          <NavLink to='/message' activeClassName={s.active}>Dialogs</NavLink>
-        </div>
-         <div className={s.item}>
-         <NavLink to='/news' activeClassName={s.active}>News</NavLink>
+            <NavLink to='/message' activeClassName={s.active}>Dialogs</NavLink>
         </div>
         <div className={s.item}>
-          <NavLink to='/music' activeClassName={s.active}>Music</NavLink>
+            <NavLink to='/news' activeClassName={s.active}>News</NavLink>
         </div>
         <div className={s.item}>
-          <NavLink to='/settings' activeClassName={s.active}>Settings</NavLink>
+            <NavLink to='/music' activeClassName={s.active}>Music</NavLink>
         </div>
-        <Friend />
+        <div className={s.item}>
+            <NavLink to='/settings' activeClassName={s.active}>Settings</NavLink>
+        </div>
+        <div className={s.item}>
+            <NavLink to='/users' activeClassName={s.active}>Users</NavLink>
+        </div>
+        <div>
+            <UsersIcon/>
+            <UsersIcon/>
+            <UsersIcon/>
+        </div>
     </nav>
 }
 

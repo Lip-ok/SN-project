@@ -1,5 +1,5 @@
 const UPDATE_NEW_MESSAGE_TEXT = "UPDATE-NEW-MESSAGE-TEXT";
-const SAND_MESSAGE = "SAND-MESSAGE";
+const SEND_MESSAGE = "SEND-MESSAGE";
 
 let initialState ={
         messageData: [
@@ -20,19 +20,26 @@ let initialState ={
 
 const dialogsReducer = (state = initialState, action) =>{
 
-    if(action.type === UPDATE_NEW_MESSAGE_TEXT){
-        state.newMessageBody = action.body;
-
-    }else if(action.type === SAND_MESSAGE){
-        let body =state.newMessageBody;
-      state.newMessageBody = "";
-      state.messageData.push({id: 5,message: body })
-
+    switch (action.type) {
+        case UPDATE_NEW_MESSAGE_TEXT:
+            return {
+               ...state,
+           newMessageBody: action.body,
+            }
+        case SEND_MESSAGE:
+            let body = state.newMessageBody;
+            return{
+                ...state,
+            newMessageBody : "",
+            messageData: [...state.messageData, {id: 6,message: body }],
+            }
+        default:
+            return state;
     }
-    return state;
+
 }
 
-export const sendMessageActionCreator = () => ({type: SAND_MESSAGE})
+export const sendMessageActionCreator = () => ({type: SEND_MESSAGE})
 export const updateNewMessageBodyActionCreator = (body) => ({type: UPDATE_NEW_MESSAGE_TEXT, body: body})
 
 export default dialogsReducer;
