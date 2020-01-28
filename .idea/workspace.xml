@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7476b9ac-f083-4256-9616-d8a754731e55" name="Default Changelist" comment="">
+    <list default="true" id="7476b9ac-f083-4256-9616-d8a754731e55" name="Default Changelist" comment="Lesson 53 completed, 1st Class component">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Users/Users.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/Users.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,7 +118,7 @@
       <workItem from="1579785847218" duration="2209000" />
       <workItem from="1579849956192" duration="12306000" />
       <workItem from="1579928337248" duration="4319000" />
-      <workItem from="1580219307364" duration="2014000" />
+      <workItem from="1580219307364" duration="2718000" />
     </task>
     <task id="LOCAL-00001" summary="Lesson 28 completed">
       <created>1576858781299</created>
@@ -184,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579960522594</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Lesson 53 completed, 1st Class component">
+      <created>1580223099626</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1580223099626</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,7 +206,8 @@
     <MESSAGE value="Lesson 46 completed funny bug" />
     <MESSAGE value="Lesson 49 completed" />
     <MESSAGE value="Lesson 52 completed, studied server requests" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lesson 52 completed, studied server requests" />
+    <MESSAGE value="Lesson 53 completed, 1st Class component" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lesson 53 completed, 1st Class component" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="177" key="#Inspections" timestamp="1576430632251">
@@ -215,10 +222,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579522411943" />
-    <state x="585" y="110" key="CommitChangelistDialog2" timestamp="1579960521176">
+    <state x="648" y="102" key="CommitChangelistDialog2" timestamp="1580223115234">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="110" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1579960521176" />
+    <state x="648" y="102" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1580223115234" />
     <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1579858767846">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -243,10 +250,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="161" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1576428688586" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1579960527430">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1580223104013">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1579960527430" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1580223104013" />
     <state x="601" y="246" width="700" height="450" key="recent.locations.popup" timestamp="1576483280559">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
