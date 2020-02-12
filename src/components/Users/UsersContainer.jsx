@@ -4,28 +4,38 @@ import {
     followAC,
     set_current_pageAC,
     set_users_total_countAC,
-    set_usersAC,
+    set_usersAC, toggle_is_fetchingAC,
     unfollowAC
 } from "../../Redax/users-reducer";
 import * as axios from "axios";
 import Users from "./Users";
+import preloader from "./../../assets/image/flickoffdribbble.gif"
 
 
 class UsersContainer extends React.Component {
     componentDidMount() {
+        this.props.toggleIsFetching(true);
         axios.get(`https://social-network.samuraijs.com/api/1.0/users?page=${this.props.currentPage}&count=${this.props.pageSize}`).then(response => {
             this.props.setUsers(response.data.items);
             this.props.setUsersTotalCount(response.data.totalCount);
+            this.props.toggleIsFetching(false);
         })
     }
     onPageChanged = (pageNumber) =>{
         this.props.setCurrentPage(pageNumber)
+        this.props.toggleIsFetching(true);
         axios.get(`https://social-network.samuraijs.com/api/1.0/users?page=${pageNumber}&count=${this.props.pageSize}`).then(response => {
             this.props.setUsers(response.data.items);
+            this.props.toggleIsFetching(false);
         })
     }
     render() {
         return (
+            <div>
+                {this.props.isFetching ?
+                    <div >
+                        <img src={preloader} />
+                    </div> : null}
             <Users totalUsersCount={this.props.totalUsersCount}
                    pageSize={this.props.pageSize}
                    currentPage={this.props.currentPage}
@@ -34,6 +44,7 @@ class UsersContainer extends React.Component {
                    follow={this.props.follow}
                    unfollow={this.props.unfollow}
             />
+            </div>
         )
     }
 }
@@ -44,6 +55,7 @@ let mapStateToProps =(state)=>{
         pageSize: state.usersPage.pageSize,
         totalUsersCount: state.usersPage.totalUsersCount,
         currentPage: state.usersPage.currentPage,
+        isFetching: state.usersPage.isFetching,
     }
 
 }
@@ -63,7 +75,10 @@ let mapDispatchToProps =(dispatch)=>{
         },
         setUsersTotalCount: (totalCount) =>{
             dispatch(set_users_total_countAC(totalCount))
-        }
+        },
+        toggleIsFetching: (isFetching) =>{
+            dispatch(toggle_is_fetchingAC(isFetching))
+        },
     }
 }
 
