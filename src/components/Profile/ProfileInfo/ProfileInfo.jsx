@@ -14,7 +14,17 @@ const ProfileInfo = (props) => {
         </div>
         <div className={s.descriptionBlock}>
             <img src={props.profile.photos.large}/>
-            ava + description
+            <div>
+                <span>{props.profile.fullName}</span>
+            </div>
+            <span>Status: {props.profile.aboutMe}</span>
+            <div>
+                <span>My contacts:</span>
+                    <div>
+                        <span>VK.com</span>
+                    </div>
+            </div>
+            <span>description</span>
         </div>
     </div>
 }
