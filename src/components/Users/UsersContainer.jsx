@@ -1,11 +1,11 @@
 import React from "react";
 import {connect} from "react-redux";
 import {
-    followAC,
-    set_current_pageAC,
-    set_users_total_countAC,
-    set_usersAC, toggle_is_fetchingAC,
-    unfollowAC
+    follow,
+    setCurrentPage,
+    setUsersTotalCount,
+    setUsers, toggleIsFetching,
+    unfollow
 } from "../../Redax/users-reducer";
 import * as axios from "axios";
 import Users from "./Users";
@@ -59,28 +59,35 @@ let mapStateToProps =(state)=>{
     }
 
 }
-let mapDispatchToProps =(dispatch)=>{
-    return{
-        follow: (userId) =>{
-            dispatch(followAC(userId));
-        },
-        unfollow: (userId) =>{
-            dispatch(unfollowAC(userId));
-        },
-        setUsers: (users) =>{
-            dispatch(set_usersAC(users))
-        },
-        setCurrentPage: (currentPage) =>{
-            dispatch(set_current_pageAC(currentPage))
-        },
-        setUsersTotalCount: (totalCount) =>{
-            dispatch(set_users_total_countAC(totalCount))
-        },
-        toggleIsFetching: (isFetching) =>{
-            dispatch(toggle_is_fetchingAC(isFetching))
-        },
-    }
-}
+// let mapDispatchToProps =(dispatch)=>{
+//     return{
+//         follow: (userId) =>{
+//             dispatch(followAC(userId));
+//         },
+//         unfollow: (userId) =>{
+//             dispatch(unfollowAC(userId));
+//         },
+//         setUsers: (users) =>{
+//             dispatch(set_usersAC(users))
+//         },
+//         setCurrentPage: (currentPage) =>{
+//             dispatch(set_current_pageAC(currentPage))
+//         },
+//         setUsersTotalCount: (totalCount) =>{
+//             dispatch(set_users_total_countAC(totalCount))
+//         },
+//         toggleIsFetching: (isFetching) =>{
+//             dispatch(toggle_is_fetchingAC(isFetching))
+//         },
+//     }
+// }
 
 
-export default connect (mapStateToProps, mapDispatchToProps)(UsersContainer);
+export default connect (mapStateToProps, {
+    follow,
+    unfollow,
+    setUsers,
+    setCurrentPage,
+    setUsersTotalCount,
+    toggleIsFetching,
+})(UsersContainer);
