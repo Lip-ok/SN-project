@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7476b9ac-f083-4256-9616-d8a754731e55" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/HOC/WithAuthRedirect.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileStatus.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Redax/profile-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redax/profile-reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/api.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Dialogs/DialogsContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/DialogsContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Profile.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileInfo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileInfo.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Users/UsersContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/UsersContainer.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -141,7 +145,20 @@
       <workItem from="1582190144540" duration="273000" />
       <workItem from="1582190560386" duration="2344000" />
       <workItem from="1582237139904" duration="304000" />
-      <workItem from="1582289033975" duration="3107000" />
+      <workItem from="1582289033975" duration="4586000" />
+      <workItem from="1582312872690" duration="21000" />
+      <workItem from="1582359445638" duration="225000" />
+      <workItem from="1582489194442" duration="183000" />
+      <workItem from="1582498675089" duration="1267000" />
+      <workItem from="1582568271298" duration="194000" />
+      <workItem from="1582569854262" duration="600000" />
+      <workItem from="1582610971841" duration="18000" />
+      <workItem from="1582620913074" duration="375000" />
+      <workItem from="1582637753546" duration="453000" />
+      <workItem from="1582639846484" duration="751000" />
+      <workItem from="1582642461281" duration="528000" />
+      <workItem from="1582728631117" duration="257000" />
+      <workItem from="1583052413533" duration="8246000" />
     </task>
     <task id="LOCAL-00001" summary="Lesson 28 completed">
       <created>1576858781299</created>
@@ -297,7 +314,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582199375509</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Lesson 69 - React JS - High Order Component (hoc)">
+      <created>1582306745458</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1582306745458</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -327,7 +351,8 @@
     <MESSAGE value="Lesson 66 - React JS,redux-thunk" />
     <MESSAGE value="Lesson 67 - React JS redux-thunk 2" />
     <MESSAGE value="Lesson 68 - React JS - Redirect" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lesson 68 - React JS - Redirect" />
+    <MESSAGE value="Lesson 69 - React JS - High Order Component (hoc)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lesson 69 - React JS - High Order Component (hoc)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="177" key="#Inspections" timestamp="1576430632251">
@@ -342,38 +367,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579522411943" />
-    <state x="648" y="102" key="CommitChangelistDialog2" timestamp="1582199373718">
+    <state x="648" y="102" key="CommitChangelistDialog2" timestamp="1582306744713">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="648" y="102" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1582199373718" />
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1581923135830">
+    <state x="648" y="102" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1582306744713" />
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1582642988297">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1581923135830" />
-    <state width="1899" height="97" key="GridCell.Tab.0.bottom" timestamp="1582209252837">
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1582642988297" />
+    <state width="1899" height="97" key="GridCell.Tab.0.bottom" timestamp="1583063019658">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="97" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582209252837" />
-    <state width="1899" height="97" key="GridCell.Tab.0.center" timestamp="1582209252837">
+    <state width="1899" height="97" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583063019658" />
+    <state width="1899" height="97" key="GridCell.Tab.0.center" timestamp="1583063019658">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="97" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582209252837" />
-    <state width="1899" height="97" key="GridCell.Tab.0.left" timestamp="1582209252837">
+    <state width="1899" height="97" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583063019658" />
+    <state width="1899" height="97" key="GridCell.Tab.0.left" timestamp="1583063019654">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="97" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582209252837" />
-    <state width="1899" height="97" key="GridCell.Tab.0.right" timestamp="1582209252837">
+    <state width="1899" height="97" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583063019654" />
+    <state width="1899" height="97" key="GridCell.Tab.0.right" timestamp="1583063019658">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="97" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582209252837" />
+    <state width="1899" height="97" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583063019658" />
     <state x="461" y="161" key="SettingsEditor" timestamp="1576428688586">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="161" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1576428688586" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1582199377558">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1582306747918">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1582199377558" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1582306747918" />
     <state x="474" y="110" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1581768227041">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
