@@ -2,6 +2,7 @@ import React from 'react';
 import s from './Dialogs.module.css';
 import DialogItem from "./DialogItem/DialogItem";
 import Message from "./Message/Message";
+import {NewMessageReduxForm} from "./AddMessageForm";
 
 const Dialogs = (props) => {
 
@@ -19,7 +20,10 @@ const Dialogs = (props) => {
         let body = e.target.value;
         props.updateNewMessageBody(body);
     }
+    const onSubmit =(value)=>{
 
+        props.sendMessage(value.message);
+    }
 
     return (
 
@@ -29,14 +33,7 @@ const Dialogs = (props) => {
             </div>
             <div className={s.messages}>
                 <div>{messageDataElements}</div>
-                <div>
-                    <textarea onChange={onNewMessageChange}
-                              value={newMessageBody}
-                              placeholder="Write you messages"></textarea>
-                </div>
-                <div>
-                    <button onClick={onSendMessageClick}>Enter</button>
-                </div>
+               <NewMessageReduxForm onSubmit={onSubmit}/>
 
             </div>
 
