@@ -1,58 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7476b9ac-f083-4256-9616-d8a754731e55" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Dialogs/AddMessageForm.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Login/LoginForm.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPostForm.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cliui/node_modules/string-width/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cliui/node_modules/string-width/license" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cliui/node_modules/string-width/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cliui/node_modules/string-width/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/string-width/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/string-width/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/string-width/node_modules/strip-ansi/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/string-width/node_modules/strip-ansi/license" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/string-width/node_modules/strip-ansi/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/string-width/node_modules/strip-ansi/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/string-width/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/string-width/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/string-width/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/string-width/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/table/node_modules/string-width/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/table/node_modules/string-width/license" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/table/node_modules/string-width/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/table/node_modules/string-width/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack-dev-server/node_modules/is-fullwidth-code-point/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack-dev-server/node_modules/is-fullwidth-code-point/license" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack-dev-server/node_modules/is-fullwidth-code-point/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack-dev-server/node_modules/is-fullwidth-code-point/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/wrap-ansi/node_modules/string-width/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/wrap-ansi/node_modules/string-width/license" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/wrap-ansi/node_modules/string-width/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/wrap-ansi/node_modules/string-width/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/yargs/node_modules/string-width/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/yargs/node_modules/string-width/license" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/yargs/node_modules/string-width/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/yargs/node_modules/string-width/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Redax/dialogs-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redax/dialogs-reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Redax/profile-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redax/profile-reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Redax/redux-store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redax/redux-store.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/DialogsContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/DialogsContainer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Login/Login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Login/Login.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPostsContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPostsContainer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileStatus.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileStatus.jsx" afterDir="false" />
-    </list>
+    <list default="true" id="7476b9ac-f083-4256-9616-d8a754731e55" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="G:\it-kamasutra\social-network\SN-project-master\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="ProjectId" id="1Ubyr6Q9kFqNNW5OqfzLmSZxkB4" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -62,7 +41,8 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.last.introduce.type" value="CONST" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Dialogs" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -70,6 +50,13 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\it-kamasutra\social-network\SN-project-master\src\components\Common" />
+      <recent name="G:\it-kamasutra\social-network\SN-project\src\components" />
+      <recent name="G:\it-kamasutra\social-network\SN-project\src\components\Navbar" />
+      <recent name="G:\it-kamasutra\social-network\SN-project\src\Redax" />
+      <recent name="G:\it-kamasutra\social-network\SN-project\src\components\News" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="G:\it-kamasutra\social-network\SN-project\src\components\Dialogs" />
       <recent name="G:\it-kamasutra\social-network\SN-project\src\components\Profile\MyPosts" />
@@ -77,15 +64,18 @@
       <recent name="G:\it-kamasutra\social-network\SN-project\src\Redax" />
       <recent name="G:\it-kamasutra\social-network\SN-project\src\components\Header" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="G:\it-kamasutra\social-network\SN-project\src\components" />
-      <recent name="G:\it-kamasutra\social-network\SN-project\src\components\Navbar" />
-      <recent name="G:\it-kamasutra\social-network\SN-project\src\Redax" />
-      <recent name="G:\it-kamasutra\social-network\SN-project\src\components\News" />
-      <recent name="G:\it-kamasutra\social-network\SN-project\src\components\Settings" />
-    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.start">
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -99,6 +89,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="npm.start" />
+        <item itemvalue="npm.build" />
       </list>
     </recent_temporary>
   </component>
@@ -193,6 +184,13 @@
       <workItem from="1583156814158" duration="121000" />
       <workItem from="1583218293738" duration="5560000" />
       <workItem from="1583234442797" duration="7066000" />
+      <workItem from="1584193951600" duration="1817000" />
+      <workItem from="1584380137515" duration="2750000" />
+      <workItem from="1584463322130" duration="15000" />
+      <workItem from="1584869618260" duration="7136000" />
+      <workItem from="1584876761465" duration="683000" />
+      <workItem from="1584877473913" duration="24000" />
+      <workItem from="1584877787167" duration="4938000" />
     </task>
     <task id="LOCAL-00001" summary="Lesson 28 completed">
       <created>1576858781299</created>
@@ -362,16 +360,34 @@
       <option name="project" value="LOCAL" />
       <updated>1583067934791</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="77 - React JS - redux-form field">
+      <created>1584876827531</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1584876827531</updated>
+    </task>
+    <task id="LOCAL-00026" summary="77 - React JS - redux-form field.">
+      <created>1584876916629</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1584876916629</updated>
+    </task>
+    <task id="LOCAL-00027" summary="78 - React JS - login и logout api">
+      <created>1584899559404</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1584899559404</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Lesson 28 completed" />
-    <MESSAGE value="Lesson 29 completed, but additional task in the process" />
-    <MESSAGE value="Lesson 29 completed, additional task completed on 70%" />
     <MESSAGE value="Lesson 38 completed" />
     <MESSAGE value="Lesson 41 completed" />
     <MESSAGE value="Lesson 43 completed" />
@@ -394,17 +410,20 @@
     <MESSAGE value="Lesson 68 - React JS - Redirect" />
     <MESSAGE value="Lesson 69 - React JS - High Order Component (hoc)" />
     <MESSAGE value="Lesson 73 local state, put request" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lesson 73 local state, put request" />
+    <MESSAGE value="77 - React JS - redux-form field" />
+    <MESSAGE value="77 - React JS - redux-form field." />
+    <MESSAGE value="78 - React JS - login и logout api" />
+    <option name="LAST_COMMIT_MESSAGE" value="78 - React JS - login и logout api" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="177" key="#Inspections" timestamp="1576430632251">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="177" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1576430632251" />
-    <state x="552" y="179" key="#Notifications" timestamp="1583067953094">
+    <state x="552" y="179" key="#Notifications" timestamp="1584899629195">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="179" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1583067953094" />
+    <state x="552" y="179" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1584899629195" />
     <state x="0" y="0" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583236416775">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -413,38 +432,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579522411943" />
-    <state x="648" y="102" key="CommitChangelistDialog2" timestamp="1583067933445">
+    <state x="681" y="139" key="CommitChangelistDialog2" timestamp="1584901310552">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="648" y="102" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1583067933445" />
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1583156932916">
+    <state x="681" y="139" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1584901310552" />
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1584876758061">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1583156932916" />
-    <state width="1899" height="97" key="GridCell.Tab.0.bottom" timestamp="1583243564604">
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1584876758061" />
+    <state width="1899" height="340" key="GridCell.Tab.0.bottom" timestamp="1584901323573">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="97" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583243564604" />
-    <state width="1899" height="97" key="GridCell.Tab.0.center" timestamp="1583243564603">
+    <state width="1899" height="340" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584901323573" />
+    <state width="1899" height="340" key="GridCell.Tab.0.center" timestamp="1584901323573">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="97" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583243564603" />
-    <state width="1899" height="97" key="GridCell.Tab.0.left" timestamp="1583243564602">
+    <state width="1899" height="340" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584901323573" />
+    <state width="1899" height="340" key="GridCell.Tab.0.left" timestamp="1584901323573">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="97" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583243564602" />
-    <state width="1899" height="97" key="GridCell.Tab.0.right" timestamp="1583243564603">
+    <state width="1899" height="340" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584901323573" />
+    <state width="1899" height="340" key="GridCell.Tab.0.right" timestamp="1584901323573">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="97" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583243564603" />
+    <state width="1899" height="340" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584901323573" />
     <state x="461" y="161" key="SettingsEditor" timestamp="1576428688586">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="161" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1576428688586" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1583067937243">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1584899611737">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1583067937243" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1584899611737" />
     <state x="474" y="110" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1581768227041">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -461,9 +480,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1582209250101" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1582199107674">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1584874543334">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1582199107674" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1584874543334" />
   </component>
 </project>

@@ -1,19 +1,12 @@
 import React from 'react';
 import s from './MyPosts.module.css';
 import Post from "./Post/Post";
-import NewPost, {MyPostReduxForm} from "./MyPostForm";
+import {MyPostReduxForm} from "./MyPostForm";
 
 
 const MyPosts = (props) => {
     let postsDataElements = props.postsData.map(posts => <Post message={posts.message} count={posts.count}/>)
-    let newPostElement = React.createRef();
 
-
-    let onAddPost = () => {
-        props.addPost();
-
-
-    }
 
 
     const onSubmit = (value) => {

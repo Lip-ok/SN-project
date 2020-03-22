@@ -6,7 +6,7 @@ import {
     unfollow, toggleFollowingProgress, getUsers
 } from "../../Redax/users-reducer";
 import Users from "./Users";
-import Preloader from "../Preloader/Preloader";
+import Preloader from "../Common/Preloader/Preloader";
 import {withAuthRedirect} from "../../HOC/WithAuthRedirect";
 import {compose} from "redux";
 
